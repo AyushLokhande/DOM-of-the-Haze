@@ -4,8 +4,6 @@ A co-op zombie-bunker escape game where **the browser's own code is the puzzle**
 
 **Play it live:** https://dom-of-the-haze.vercel.app/
 
-Built for the **MysteryBox** track (FLAG_OMEGA // Track 02): cross-tab sync, DOM inspection and temporal logic, all in a single HTML file with no build step.
-
 ---
 
 ## The story
@@ -88,7 +86,3 @@ To deploy, any static host works. On Vercel, keep the file named `index.html` in
 
 - The best time is stored in `localStorage`, so it is per browser. To reset it, run `localStorage.removeItem('haze_best_time')` in the Console.
 - Best played on a desktop browser, since the game relies on DevTools.
-
-## Team
-
-Add your names here.
